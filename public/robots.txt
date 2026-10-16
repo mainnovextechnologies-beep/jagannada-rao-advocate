@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-# Replace the example domain below after deploying to the verified production domain.
-# Sitemap: https://YOUR-VERIFIED-DOMAIN/sitemap.xml
+
+Sitemap: https://jagannada-rao-advocate.vercel.app/sitemap.xml
