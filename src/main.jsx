@@ -200,17 +200,20 @@ function App() {
                 <span></span> LEGAL COUNSEL · VISAKHAPATNAM
               </div>
 
+
               <h1>
-                Advocate S.S.S.V. Jagannadha Rao
-                <em> | Lawyer in Visakhapatnam</em>
+                <span>Advocate S.S.S.V.</span>{" "}
+                <span>Jagannadha Rao</span>
+                <em>Legal Services in Visakhapatnam</em>
               </h1>
 
               <p className="hero-sub">
                 Advocate S.S.S.V. Jagannadha Rao provides legal
-                counsel in Murali Nagar, Visakhapatnam,
-                Andhra Pradesh, for criminal, civil, family and
-                other legal matters.
+                counsel in Murali Nagar, Visakhapatnam, Andhra
+                Pradesh, for criminal, civil, family and other
+                legal matters.
               </p>
+
 
               <p className="hero-name">Advocate S.S.S.V. Jagannadha Rao</p>
               <div className="hero-actions">
