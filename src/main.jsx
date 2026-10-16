@@ -563,18 +563,34 @@ function App() {
               <p>Murali Nagar, Visakhapatnam, Andhra Pradesh</p>
             </div>
             <div className="location-grid">
-              <div className="map-wrap reveal">
-                <iframe
-                  title="Map of Murali Nagar, Visakhapatnam"
-                  src="https://www.google.com/maps?q=Murali+Nagar,+Visakhapatnam,+Andhra+Pradesh&output=embed"
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  allowFullScreen
-                ></iframe>
-              </div>
+             <div className="map-wrap reveal">
+  <iframe
+    title="Advocate S.S.S.V. Jagannadha Rao Office Location"
+    src="https://maps.google.com/maps?hl=en&q=Murali%20Nagar%2C%20Visakhapatnam%2C%20Andhra%20Pradesh%2C%20India&t=&z=15&ie=UTF8&iwloc=B&output=embed"
+    width="100%"
+    height="400"
+    style={{
+      border: 0,
+      borderRadius: "12px",
+      display: "block",
+    }}
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    allowFullScreen
+  />
+</div>
               <aside className="address-card reveal">
                 <span className="address-icon">
-                  <MapPin />
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=Murali+Nagar%2C+Visakhapatnam%2C+Andhra+Pradesh"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="map-open-btn"
+                  >
+                    <MapPin size={18} />
+                    Open Location in Google Maps
+                    <ArrowUpRight size={16} />
+                  </a>
                 </span>
                 <h3>
                   Advocate S.S.S.V.
@@ -753,74 +769,74 @@ function App() {
           </div>
         </section>
       </main>
-     <footer className="footer">
-  <div className="container footer-top">
-    <a className="brand footer-brand" href="#home">
-      <span className="brand-mark">
-        <Scale size={24} />
-      </span>
-      <span>
-        <b>Adv. S.S.S.V.</b>
-        <small>JAGANNADHA RAO</small>
-      </span>
-    </a>
+      <footer className="footer">
+        <div className="container footer-top">
+          <a className="brand footer-brand" href="#home">
+            <span className="brand-mark">
+              <Scale size={24} />
+            </span>
+            <span>
+              <b>Adv. S.S.S.V.</b>
+              <small>JAGANNADHA RAO</small>
+            </span>
+          </a>
 
-    <p>
-      Legal counsel with care, clarity and professional responsibility.
-    </p>
+          <p>
+            Legal counsel with care, clarity and professional responsibility.
+          </p>
 
-    <div className="footer-links">
-      {nav.map(([label, id]) => (
-        <a key={id} href={`#${id}`}>
-          {label}
-        </a>
-      ))}
-    </div>
+          <div className="footer-links">
+            {nav.map(([label, id]) => (
+              <a key={id} href={`#${id}`}>
+                {label}
+              </a>
+            ))}
+          </div>
 
-    <a className="footer-phone" href="tel:+919725440408">
-      <Phone size={16} /> 09725440408
-    </a>
-  </div>
+          <a className="footer-phone" href="tel:+919725440408">
+            <Phone size={16} /> 09725440408
+          </a>
+        </div>
 
-  <div className="container footer-bottom">
-    <p>
-      © {new Date().getFullYear()} Advocate S.S.S.V. Jagannadha Rao.
-      All rights reserved.
-    </p>
+        <div className="container footer-bottom">
+          <p>
+            © {new Date().getFullYear()} Advocate S.S.S.V. Jagannadha Rao.
+            All rights reserved.
+          </p>
 
-    <p className="disclaimer">
-      This website is for information only and does not constitute
-      solicitation or advertisement. Information is provided on request
-      of the visitor, in line with Bar Council of India rules.
-    </p>
-  </div>
+          <p className="disclaimer">
+            This website is for information only and does not constitute
+            solicitation or advertisement. Information is provided on request
+            of the visitor, in line with Bar Council of India rules.
+          </p>
+        </div>
 
-  {/* MA Innovex Technologies Branding */}
-  <div className="container developer-credit">
-    <a
-      href="https://mainnovextechnologies.lovable.app/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="developer-brand"
-      aria-label="Designed and developed by MA Innovex Technologies"
-    >
-      <img
-        src="/images/ma-innovex-logo.png"
-        alt="MA Innovex Technologies logo"
-        className="developer-logo"
-        loading="lazy"
-      />
+        {/* MA Innovex Technologies Branding */}
+        <div className="container developer-credit">
+          <a
+            href="https://mainnovextechnologies.lovable.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="developer-brand"
+            aria-label="Designed and developed by MA Innovex Technologies"
+          >
+            <img
+              src="/images/ma-innovex-logo.png"
+              alt="MA Innovex Technologies logo"
+              className="developer-logo"
+              loading="lazy"
+            />
 
-      <span className="developer-text">
-        <span className="developer-label">Designed &amp; Developed by</span>
-        <strong>MA Innovex Technologies</strong>
-        <span className="developer-type">IT COMPANY</span>
-      </span>
+            <span className="developer-text">
+              <span className="developer-label">Designed &amp; Developed by</span>
+              <strong>MA Innovex Technologies</strong>
+              <span className="developer-type">IT COMPANY</span>
+            </span>
 
-      <ArrowUpRight size={16} className="developer-arrow" />
-    </a>
-  </div>
-</footer>
+            <ArrowUpRight size={16} className="developer-arrow" />
+          </a>
+        </div>
+      </footer>
       <a
         className="floating-wa"
         href={waLink}

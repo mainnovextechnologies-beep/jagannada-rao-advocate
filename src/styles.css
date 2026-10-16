@@ -100,3 +100,34 @@
     font-size: 12px;
   }
 }
+.map-wrap {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #f4f4f4;
+}
+
+.map-wrap iframe {
+  width: 100%;
+  min-height: 350px;
+  border: 0;
+}
+
+.map-open-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+  padding: 13px 20px;
+  background: #c9a45c;
+  color: #101d30;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.map-open-btn:hover {
+  background: #e2bf79;
+}
