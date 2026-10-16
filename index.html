@@ -15,35 +15,85 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
-    <script type="application/ld+json">
+   
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context":"https://schema.org",
-      "@type":"LegalService",
-      "name":"Advocate S.S.S.V. Jagannadha Rao",
-      "description":"Legal counsel for criminal, civil, family, labour, corporate and related matters in Visakhapatnam, Andhra Pradesh.",
-      "telephone":"+91-9725440408",
-      "address":{"@type":"PostalAddress","streetAddress":"Murali Nagar","addressLocality":"Visakhapatnam","addressRegion":"Andhra Pradesh","addressCountry":"IN"},
-      "areaServed":["Visakhapatnam","Srikakulam","Vizianagaram","Andhra Pradesh"],
-      "openingHours":"Mo-Su 00:00-22:45",
-      "knowsLanguage":["English","Hindi","Telugu"],
-      "foundingDate":"2003"
+      "@type": "LegalService",
+      "@id": "https://jp-law-chambars.vercel.app/#legalservice",
+      "name": "JP Law Chamber",
+      "url": "https://jp-law-chambars.vercel.app/",
+      "image": "https://jp-law-chambars.vercel.app/images/advocate-john-prasad.jpg",
+      "telephone": "+91-99665-42448",
+      "description": "JP Law Chamber, associated with Advocate G. John Prasad in Pendurthi, Visakhapatnam, Andhra Pradesh.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Opposite Rythu Bazaar, Sarada Nagar, Karmika Nagar, Pendurthi, Chinnamusidivada",
+        "addressLocality": "Pendurthi",
+        "addressRegion": "Andhra Pradesh",
+        "postalCode": "531173",
+        "addressCountry": "IN"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Visakhapatnam"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Andhra Pradesh"
+        }
+      ],
+      "employee": {
+        "@id": "https://jp-law-chambars.vercel.app/#advocate"
+      }
     },
     {
-  "@type": "WebSite",
-  "@id": "https://jagannada-rao-advocate.vercel.app/#website",
-  "url": "https://jagannada-rao-advocate.vercel.app/",
-  "name": "Advocate S.S.S.V. Jagannadha Rao",
-  "alternateName": [
-    "S.S.S.V. Jagannadha Rao",
-    "Advocate Jagannadha Rao",
-    "Jagannadha Rao Advocate Visakhapatnam"
-  ],
-  "inLanguage": "en-IN",
-  "publisher": {
-    "@id": "https://jagannada-rao-advocate.vercel.app/#person"
-  }
+      "@type": "Person",
+      "@id": "https://jp-law-chambars.vercel.app/#advocate",
+      "name": "G. John Prasad",
+      "jobTitle": "Advocate",
+      "worksFor": {
+        "@id": "https://jp-law-chambars.vercel.app/#legalservice"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jp-law-chambars.vercel.app/#website",
+      "url": "https://jp-law-chambars.vercel.app/",
+      "name": "JP Law Chamber",
+      "alternateName": [
+        "JP Law Chamber Pendurthi",
+        "JP Law Chambers"
+      ],
+      "inLanguage": "en-IN",
+      "publisher": {
+        "@id": "https://jp-law-chambars.vercel.app/#legalservice"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://jp-law-chambars.vercel.app/#webpage",
+      "url": "https://jp-law-chambars.vercel.app/",
+      "name": "JP Law Chamber | Advocate G. John Prasad, Pendurthi",
+      "description": "Chamber information, contact details and legal services associated with Advocate G. John Prasad in Pendurthi, Visakhapatnam, Andhra Pradesh.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://jp-law-chambars.vercel.app/#website"
+      },
+      "about": {
+        "@id": "https://jp-law-chambars.vercel.app/#legalservice"
+      },
+      "mainEntity": {
+        "@id": "https://jp-law-chambars.vercel.app/#legalservice"
+      }
+    }
+  ]
 }
-    </script>
+</script>
+
   </head>
   <body><div id="root"></div><script type="module" src="/src/main.jsx"></script></body>
 </html>
